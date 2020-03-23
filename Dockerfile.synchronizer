@@ -14,7 +14,7 @@
 
 # docker build -t xosproject/fabric-synchronizer:candidate -f Dockerfile.synchronizer .
 
-FROM xosproject/alpine-grpc-base:0.9.0
+FROM iecedge/alpine-grpc-base:0.9.1
 
 # Install pip packages
 COPY requirements.txt /tmp/requirements.txt
